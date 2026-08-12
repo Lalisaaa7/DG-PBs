@@ -1,8 +1,6 @@
-# DG-PBs: Diffusion-Augmented Graph Learning for Protein-DNA Binding Site Prediction
+# DG-PBs: A web server for diffusion-enhanced protein–DNA binding site prediction under class imbalance
 
-DG-PBs is a diffusion-augmented graph learning framework for residue-level protein-DNA binding site prediction.
-
-This project integrates protein language model embeddings, conditional diffusion-based positive residue augmentation, and hybrid graph neural networks to address the severe class imbalance problem commonly observed in DNA-binding residue prediction.
+DG-PBs is a web server for residue-level protein–DNA binding site prediction. The system integrates ESM-2 residue embeddings, cosine similarity Top-k residue graph construction, and a diffusion-enhanced graph neural network model to improve prediction under class imbalance.
 
 ---
 
